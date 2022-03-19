@@ -9,15 +9,15 @@ def main():
     # this function shows formatting output
 
     # input
-    Number_1 = int(input("Insert any number (integers): "))
-    Number_2 = int(input("Insert any number (integers): "))
+    number_1 = int(input("Insert any number (integers): "))
+    number_2 = int(input("Insert any number (integers): "))
 
     # process
-    total = Number_1 + Number_2
+    total = number_1 + number_2
 
     # output
     print("")
-    print("{0} + {1} = {2}".format(Number_1, Number_2, total))
+    print("{0} + {1} = {2}".format(number_1, number_2, total))
     print("\nDone.")
 
 
